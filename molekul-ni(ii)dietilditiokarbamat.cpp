@@ -1,3 +1,4 @@
+%%writefile molekul-ni(ii)dietilditiokarbamat.cpp
 
 #include "iostream"
 #include "cmath"
@@ -49,6 +50,23 @@ int main(){
     float S2x, S2y, S2z;
     float S3x, S3y, S3z;
     float S4x, S4y, S4z;
+    
+     /* C                                  C
+        \                                /
+         C    C                         C 
+          \  /                         / \
+           C       S        S         C   C
+            \     /  \    /    \     /
+             N - C    Ni  Ni    C - N
+            /     \   /   \    /     \
+           C        S        S        C    C
+          /  \                         \  /
+         C    C                         C
+        /                                \
+       C                                  C
+       
+       molekul ni(ii) dietildikarbamat
+    /*
     
     // masukkan nilai untuk setiap variabel C10H20N2NiS4
     Nix = Niy = Niz = 0.0;
