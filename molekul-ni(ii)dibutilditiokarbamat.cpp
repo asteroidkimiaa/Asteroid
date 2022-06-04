@@ -65,5 +65,12 @@ int main(){
     float H34x, H34y, H34z;
     float H35x, H35y, H35z;
     float H36x, H36y, H36z;
+    float N1x, N1y, N1z;
+    float N2x, N2y, N2z;
+    float Nix, Niy, Niz;
+    float S1x, S1y, S1z;
+    float S2x, S2y, S2z;
+    float S3x, S3y, S3z;
+    float S4x, S4y, S4z;
 
     // masukkan nilai untuk setiap variabel C18H36N2NiS4
