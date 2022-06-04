@@ -49,5 +49,22 @@ int main(){
     float S2x, S2y, S2z;
     float S3x, S3y, S3z;
     float S4x, S4y, S4z;
-
+    
     // masukkan nilai untuk setiap variabel C10H20N2NiS4
+    Nix = Niy = Niz = 0.0;
+  
+    S1x = sin(109.5*pi/180) * 1.090;
+    S1y = 0.0;
+    S1z = - cos(109.5*pi/180) * 1.090;
+
+    S2x = - S1x;
+    S2y = S1y;
+    S2z = S1z;
+
+    S3x = 0.0;
+    S3y = cos(79,55*pi/180) * 1.090;
+    S3z = - sin(79,5*pi/180) * 1.090;
+
+    S4x = S3x;
+    S4y = - S3y;
+    S4z = S3z;
