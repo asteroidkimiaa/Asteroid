@@ -21,3 +21,20 @@ int main(){
                /  | \
               Cl Cl Cl
             molekul kloroform itu bentuk rigid
+    */
+
+    float rB_CHx = 0.0;
+    float rB_CHy = 0.0;
+    float rB_CHz = 0.0;
+
+    float rB_Cl1x = sin(109.5*pi/180.0) * 1.090;
+    float rB_Cl1y = 0.0;
+    float rB_Cl1z = cos (109.5*pi/180.0) * 1.090;
+
+    float rB_Cl2x = - rB_H1x;
+    float rB_Cl2y = rB_H1y;
+    float rB_Cl2z = rB_H1z;
+
+    float rB_Cl3x = 0.0;
+    float rB_Cl3y = cos(54.75*pi/180) * 1.090;
+    float rB_Cl3z = - sin(54.75*pi/180) * 1.090;            
