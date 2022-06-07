@@ -90,5 +90,25 @@ int main(){
              << fixed << setprecision(5) << Hx[m] << setw(5) << " " \
              << fixed << setprecision(5) << Hy[m] << setw(5) << " " \
              << fixed << setprecision(5) << Hz[m] << "\n";
+        file << setw(5) << "CL" << setw(5) << " " \
+             << fixed << setprecision(5) << CL1x[m] << setw(5) << " " \
+             << fixed << setprecision(5) << CL1y[m] << setw(5) << " " \
+             << fixed << setprecision(5) << CL1z[m] << "\n";
 
-       
+       file << setw(5) << "CL" << setw(5) << " " \
+             << fixed << setprecision(5) << CL2x[m] << setw(5) << " " \
+             << fixed << setprecision(5) << CL2y[m] << setw(5) << " " \
+             << fixed << setprecision(5) << CL2z[m] << "\n";
+
+      file << setw(5) << "CL" << setw(5) << " " \
+             << fixed << setprecision(5) << CL3x[m] << setw(5) << " " \
+             << fixed << setprecision(5) << CL3y[m] << setw(5) << " " \
+             << fixed << setprecision(5) << CL3z[m] << "\n";
+    }   
+
+    file.close();
+
+    cout << "Program telah selesai";
+
+    return 0;      
+}
