@@ -40,8 +40,8 @@ int main(){
     float rB_CL1z = rB_Hz;
 
     float rB_CL2x = 0.0;
-    float rB_CL2y = cos(54.75*pi/180) * 1.760;
-    float rB_CL2z = - sin(54.75*pi/180) * 1.760;
+    float rB_CL2y = cos(90*pi/180) * 1.760;
+    float rB_CL2z = - sin(90*pi/180) * 1.760;
 
     float rB_CL3x = rB_CL2x;
     float rB_CL3y = - rB_CL2y;
