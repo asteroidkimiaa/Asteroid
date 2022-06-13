@@ -33,11 +33,11 @@ int main(){
 
     float rB_Hx = - sin(109.5*pi/180.0) * 1.090;
     float rB_Hy = 0.0;
-    float rB_Hz = cos (109.5*pi/180.0) * 1.090;
+    float rB_Hz = cos(109.5*pi/180.0) * 1.090;
 
-    float rB_CL1x = - rB_Hx;
+    float rB_CL1x = - sin(90*pi/180.0) * 1.760;
     float rB_CL1y = rB_Hy;
-    float rB_CL1z = rB_Hz;
+    float rB_CL1z = cos(90*pi/180.0) * 1.760;
 
     float rB_CL2x = 0.0;
     float rB_CL2y = cos(90*pi/180) * 1.760;
