@@ -35,7 +35,7 @@ int main(){
     float rB_Hy = 0.0;
     float rB_Hz = cos(109.5*pi/180) * 107,6;
 
-    float rB_CL1x = - sin(53.8*pi/180) * 111,;
+    float rB_CL1x = - sin(53.8*pi/180) * 111,3;
     float rB_CL1y = 0.0;
     float rB_CL1z = cos(53.8*pi/180) * 111,3;
 
