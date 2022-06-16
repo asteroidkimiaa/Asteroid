@@ -31,21 +31,21 @@ int main(){
     float rB_Cy = 0.0;
     float rB_Cz = 0.0;
 
-    float rB_Hx = - sin(109.5*pi/180.0) * 1.090;
+    float rB_Hx = - sin(109.5*pi/180) * 1.090;
     float rB_Hy = 0.0;
-    float rB_Hz = cos(109.5*pi/180.0) * 1.090;
+    float rB_Hz = cos(109.5*pi/180) * 1.090;
 
-    float rB_CL1x = - sin(90*pi/180.0) * 1.760;
-    float rB_CL1y = rB_Hy;
-    float rB_CL1z = cos(90*pi/180.0) * 1.760;
+    float rB_CL1x = - sin(53.8*pi/180) * 1.760;
+    float rB_CL1y = 0.0;
+    float rB_CL1z = cos(53.8*pi/180) * 1.760;
 
     float rB_CL2x = 0.0;
-    float rB_CL2y = cos(90*pi/180) * 1.760;
-    float rB_CL2z = - sin(90*pi/180) * 1.760;
+    float rB_CL2y = cos(55.6*pi/180) * 1.760;
+    float rB_CL2z = - sin(55.6*pi/180) * 1.760;
 
-    float rB_CL3x = rB_CL2x;
-    float rB_CL3y = - rB_CL2y;
-    float rB_CL3z = rB_CL2z;
+    float rB_CL3x = 0.0;
+    float rB_CL3y = - cos (55.6*pi/180) * 1.760;
+    float rB_CL3z = - sin(55.6*pi/180) * 1.760;
 
     // iterasi untuk setiap molekul triklorometana
     for(int i = 0; i < 5; i++){
