@@ -1,3 +1,4 @@
+
 %%writefile triklorometana-ruah.cpp
 
 #include "iostream"
@@ -31,21 +32,21 @@ int main(){
     float rB_Cy = 0.0;
     float rB_Cz = 0.0;
 
-    float rB_Hx = - sin(109.5*pi/180) * 107,6;
+    float rB_Hx = sin(109.5*pi/180) * 1.090;
     float rB_Hy = 0.0;
-    float rB_Hz = cos(109.5*pi/180) * 107,6;
+    float rB_Hz = - cos(109.5*pi/180) * 1.090;
 
-    float rB_CL1x = - sin(53.8*pi/180) * 111,3;
+    float rB_CL1x = - sin(53.8*pi/180) * 1.760;
     float rB_CL1y = 0.0;
-    float rB_CL1z = cos(53.8*pi/180) * 111,3;
+    float rB_CL1z = cos(53.8*pi/180) * 1.760;
 
     float rB_CL2x = 0.0;
-    float rB_CL2y = cos(55.6*pi/180) * 111,3;
-    float rB_CL2z = - sin(55.6*pi/180) * 111,3;
+    float rB_CL2y = cos(55.6*pi/180) * 1.760;
+    float rB_CL2z = - sin(55.6*pi/180) * 1.760;
 
     float rB_CL3x = 0.0;
-    float rB_CL3y = - cos (55.6*pi/180) * 111,3;
-    float rB_CL3z = - sin(55.6*pi/180) * 111,3;
+    float rB_CL3y = - cos (55.6*pi/180) * 1.760;
+    float rB_CL3z = sin(55.6*pi/180) * 1.760;
 
     // iterasi untuk setiap molekul triklorometana
     for(int i = 0; i < 5; i++){
@@ -62,7 +63,7 @@ int main(){
 
                 CL1x[counter] = Cx[counter] + rB_CL1x;
                 CL1y[counter] = Cy[counter] + rB_CL1y;
-                CL1z[counter] = Cz[counter] + rB_CL1x;
+                CL1z[counter] = Cz[counter] + rB_CL1z;
 
                 CL2x[counter] = Cx[counter] + rB_CL2x;
                 CL2y[counter] = Cy[counter] + rB_CL2y;
